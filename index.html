@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR, en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Hero Banner com fontes adequadas para dislexia e plug in de Libras. Para o aprendizado.">
+  <meta name="keywords" content="Educação, Acessibilidade, Front End.">
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <title>Educação | Front End</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="./arquivos/css/CV2-icons.css" rel="stylesheet" />
+<link href="./arquivos/css/CV2-svg.css" rel="stylesheet" />
+<link href="./arquivos/css/font-awesome.css" rel="stylesheet" />
+<link href="./arquivos/css/fontes-svg.css" rel="stylesheet" />
+<link href="./arquivos/css/CV.css?v=1.2.2" rel="stylesheet" />
+</head>
+<body class="index-page">
+    <div class="section" style="background-image: url('./arquivos/img/temas/1.svg');">
+        <div class="container py-md">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 mb-lg-auto">
+              <div class="rounded overflow-hidden transform-perspective-left">
+                <div id="carousel_example" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="img-fluid" src="./arquivos/img/temas/fig03.jpg" alt="Seis pincéis de telas sobre uma mesa.">
+                    </div>                  
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <h1 class="font-weight-light"><b>Nome</b></h1>
+              <p class="lead mt-4"><b><big>Esse parágrafo é para escrever uma breve apresentação.</big></b></p>
+              <button a href="CV.pdf" download="CV.pdf" type="application/pdf" class="btn btn-lg btn-primary" type="button" style= "background-color:rgb(114, 8, 109)" target="_blank"><b>Acessar o CV</b></button>
+            </div>         
+          </div>
+        </div>
+      </div>
+      <div vw class="enabled" id="PluginLibras" aria-labelledby="tradutordelibras">
+        <div vw-access-button class="active" role="button"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+      <style>
+         button:focus {
+          padding:2em; 
+          border-color: transparent;
+         }
+      </style>
+</body>
+</html>
