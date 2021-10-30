@@ -1,3 +1,3 @@
 # front_end_education
 Projeto com fonte acessível para dislexia e plug in de Libras para fins educacionais.
-Hero Banner para estudantes de TI disponibilizarem o CV on line.
+Pode ser utilizado para disponibilizar o CV on line ou outro documento.
